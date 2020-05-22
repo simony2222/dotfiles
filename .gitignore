@@ -3,3 +3,11 @@
 .bash_logout
 .cache/*
 .cfg-git/*
+tmp/*
+go/*
+Download/*
+.ssh/*
+.zshenv
+.fonts/.uuid
+.viminfo
+.gitconfig
