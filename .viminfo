@@ -12,9 +12,9 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1584874064,,"wq"
+|2,0,1590484243,,"wq"
 :q
-|2,0,1584872899,,"q"
+|2,0,1590250383,,"q"
 
 # Search String History (newest to oldest):
 
@@ -34,38 +34,144 @@
 |3,1,1,0,5,0,1584820350,"twm &","xclock -geometry 50x50-1+1 &","xterm -geometry 80x50+494+51 &","xterm -geometry 80x20+494-0 &","exec xterm -geometry 80x66+0+0 -name login"
 
 # File marks:
-'0  5  9  ~/.gitignore
-|4,48,5,9,1584874064,"~/.gitignore"
-'1  4  7  ~/.gitignore
-|4,49,4,7,1584873592,"~/.gitignore"
-'2  6  7  ~/.gitignore
-|4,50,6,7,1584873592,"~/.gitignore"
-'3  3  11  ~/.gitignore
-|4,51,3,11,1584873568,"~/.gitignore"
-'4  3  11  ~/.gitignore
-|4,52,3,11,1584873568,"~/.gitignore"
-'5  5  11  ~/.gitignore
-|4,53,5,11,1584873568,"~/.gitignore"
-'6  5  11  ~/.gitignore
-|4,54,5,11,1584873568,"~/.gitignore"
-'7  1  8  ~/.gitignore
-|4,55,1,8,1584873532,"~/.gitignore"
-'8  1  8  ~/.gitignore
-|4,56,1,8,1584873532,"~/.gitignore"
-'9  1  8  ~/.gitignore
-|4,57,1,8,1584873532,"~/.gitignore"
+'0  52  9  ~/.xinitrc
+|4,48,52,9,1590484243,"~/.xinitrc"
+'1  267  0  /etc/default/clight.conf
+|4,49,267,0,1590250383,"/etc/default/clight.conf"
+'2  51  9  ~/.xinitrc
+|4,50,51,9,1590225874,"~/.xinitrc"
+'3  51  9  ~/.xinitrc
+|4,51,51,9,1590225874,"~/.xinitrc"
+'4  5  9  ~/.gitignore
+|4,52,5,9,1584874064,"~/.gitignore"
+'5  4  7  ~/.gitignore
+|4,53,4,7,1584873592,"~/.gitignore"
+'6  6  7  ~/.gitignore
+|4,54,6,7,1584873592,"~/.gitignore"
+'7  3  11  ~/.gitignore
+|4,55,3,11,1584873568,"~/.gitignore"
+'8  3  11  ~/.gitignore
+|4,56,3,11,1584873568,"~/.gitignore"
+'9  5  11  ~/.gitignore
+|4,57,5,11,1584873568,"~/.gitignore"
 
 # Jumplist (newest first):
+-'  52  9  ~/.xinitrc
+|4,39,52,9,1590484243,"~/.xinitrc"
+-'  51  9  ~/.xinitrc
+|4,39,51,9,1590484043,"~/.xinitrc"
+-'  267  0  /etc/default/clight.conf
+|4,39,267,0,1590250383,"/etc/default/clight.conf"
+-'  267  0  /etc/default/clight.conf
+|4,39,267,0,1590250383,"/etc/default/clight.conf"
+-'  1  0  /etc/default/clight.conf
+|4,39,1,0,1590250128,"/etc/default/clight.conf"
+-'  1  0  /etc/default/clight.conf
+|4,39,1,0,1590250128,"/etc/default/clight.conf"
+-'  51  9  ~/.xinitrc
+|4,39,51,9,1590225874,"~/.xinitrc"
+-'  51  9  ~/.xinitrc
+|4,39,51,9,1590225874,"~/.xinitrc"
+-'  53  6  ~/.xinitrc
+|4,39,53,6,1590225825,"~/.xinitrc"
+-'  53  6  ~/.xinitrc
+|4,39,53,6,1590225825,"~/.xinitrc"
+-'  53  6  ~/.xinitrc
+|4,39,53,6,1590225825,"~/.xinitrc"
+-'  5  9  ~/.gitignore
+|4,39,5,9,1584874064,"~/.gitignore"
+-'  5  9  ~/.gitignore
+|4,39,5,9,1584874064,"~/.gitignore"
+-'  5  9  ~/.gitignore
+|4,39,5,9,1584874064,"~/.gitignore"
+-'  5  9  ~/.gitignore
+|4,39,5,9,1584874064,"~/.gitignore"
+-'  5  9  ~/.gitignore
+|4,39,5,9,1584874064,"~/.gitignore"
+-'  5  9  ~/.gitignore
+|4,39,5,9,1584874064,"~/.gitignore"
+-'  5  9  ~/.gitignore
+|4,39,5,9,1584874064,"~/.gitignore"
 -'  5  9  ~/.gitignore
 |4,39,5,9,1584874064,"~/.gitignore"
 -'  4  7  ~/.gitignore
 |4,39,4,7,1584874021,"~/.gitignore"
+-'  4  7  ~/.gitignore
+|4,39,4,7,1584874021,"~/.gitignore"
+-'  4  7  ~/.gitignore
+|4,39,4,7,1584874021,"~/.gitignore"
+-'  4  7  ~/.gitignore
+|4,39,4,7,1584874021,"~/.gitignore"
+-'  4  7  ~/.gitignore
+|4,39,4,7,1584874021,"~/.gitignore"
+-'  4  7  ~/.gitignore
+|4,39,4,7,1584874021,"~/.gitignore"
+-'  4  7  ~/.gitignore
+|4,39,4,7,1584874021,"~/.gitignore"
+-'  4  7  ~/.gitignore
+|4,39,4,7,1584874021,"~/.gitignore"
+-'  6  7  ~/.gitignore
+|4,39,6,7,1584873592,"~/.gitignore"
+-'  6  7  ~/.gitignore
+|4,39,6,7,1584873592,"~/.gitignore"
+-'  6  7  ~/.gitignore
+|4,39,6,7,1584873592,"~/.gitignore"
+-'  6  7  ~/.gitignore
+|4,39,6,7,1584873592,"~/.gitignore"
+-'  6  7  ~/.gitignore
+|4,39,6,7,1584873592,"~/.gitignore"
+-'  6  7  ~/.gitignore
+|4,39,6,7,1584873592,"~/.gitignore"
+-'  6  7  ~/.gitignore
+|4,39,6,7,1584873592,"~/.gitignore"
 -'  6  7  ~/.gitignore
 |4,39,6,7,1584873592,"~/.gitignore"
 -'  3  11  ~/.gitignore
 |4,39,3,11,1584873581,"~/.gitignore"
 -'  5  11  ~/.gitignore
 |4,39,5,11,1584873581,"~/.gitignore"
+-'  3  11  ~/.gitignore
+|4,39,3,11,1584873581,"~/.gitignore"
+-'  5  11  ~/.gitignore
+|4,39,5,11,1584873581,"~/.gitignore"
+-'  3  11  ~/.gitignore
+|4,39,3,11,1584873581,"~/.gitignore"
+-'  5  11  ~/.gitignore
+|4,39,5,11,1584873581,"~/.gitignore"
+-'  3  11  ~/.gitignore
+|4,39,3,11,1584873581,"~/.gitignore"
+-'  5  11  ~/.gitignore
+|4,39,5,11,1584873581,"~/.gitignore"
+-'  3  11  ~/.gitignore
+|4,39,3,11,1584873581,"~/.gitignore"
+-'  5  11  ~/.gitignore
+|4,39,5,11,1584873581,"~/.gitignore"
+-'  3  11  ~/.gitignore
+|4,39,3,11,1584873581,"~/.gitignore"
+-'  5  11  ~/.gitignore
+|4,39,5,11,1584873581,"~/.gitignore"
+-'  3  11  ~/.gitignore
+|4,39,3,11,1584873581,"~/.gitignore"
+-'  5  11  ~/.gitignore
+|4,39,5,11,1584873581,"~/.gitignore"
+-'  3  11  ~/.gitignore
+|4,39,3,11,1584873581,"~/.gitignore"
+-'  5  11  ~/.gitignore
+|4,39,5,11,1584873581,"~/.gitignore"
+-'  5  11  ~/.gitignore
+|4,39,5,11,1584873568,"~/.gitignore"
+-'  5  11  ~/.gitignore
+|4,39,5,11,1584873568,"~/.gitignore"
+-'  5  11  ~/.gitignore
+|4,39,5,11,1584873568,"~/.gitignore"
+-'  5  11  ~/.gitignore
+|4,39,5,11,1584873568,"~/.gitignore"
+-'  5  11  ~/.gitignore
+|4,39,5,11,1584873568,"~/.gitignore"
+-'  5  11  ~/.gitignore
+|4,39,5,11,1584873568,"~/.gitignore"
+-'  5  11  ~/.gitignore
+|4,39,5,11,1584873568,"~/.gitignore"
 -'  5  11  ~/.gitignore
 |4,39,5,11,1584873568,"~/.gitignore"
 -'  1  8  ~/.gitignore
@@ -74,6 +180,62 @@
 |4,39,3,4,1584873548,"~/.gitignore"
 -'  3  4  ~/.gitignore
 |4,39,3,4,1584873548,"~/.gitignore"
+-'  1  8  ~/.gitignore
+|4,39,1,8,1584873548,"~/.gitignore"
+-'  3  4  ~/.gitignore
+|4,39,3,4,1584873548,"~/.gitignore"
+-'  3  4  ~/.gitignore
+|4,39,3,4,1584873548,"~/.gitignore"
+-'  1  8  ~/.gitignore
+|4,39,1,8,1584873548,"~/.gitignore"
+-'  3  4  ~/.gitignore
+|4,39,3,4,1584873548,"~/.gitignore"
+-'  3  4  ~/.gitignore
+|4,39,3,4,1584873548,"~/.gitignore"
+-'  1  8  ~/.gitignore
+|4,39,1,8,1584873548,"~/.gitignore"
+-'  3  4  ~/.gitignore
+|4,39,3,4,1584873548,"~/.gitignore"
+-'  3  4  ~/.gitignore
+|4,39,3,4,1584873548,"~/.gitignore"
+-'  1  8  ~/.gitignore
+|4,39,1,8,1584873548,"~/.gitignore"
+-'  3  4  ~/.gitignore
+|4,39,3,4,1584873548,"~/.gitignore"
+-'  3  4  ~/.gitignore
+|4,39,3,4,1584873548,"~/.gitignore"
+-'  1  8  ~/.gitignore
+|4,39,1,8,1584873548,"~/.gitignore"
+-'  3  4  ~/.gitignore
+|4,39,3,4,1584873548,"~/.gitignore"
+-'  3  4  ~/.gitignore
+|4,39,3,4,1584873548,"~/.gitignore"
+-'  1  8  ~/.gitignore
+|4,39,1,8,1584873548,"~/.gitignore"
+-'  3  4  ~/.gitignore
+|4,39,3,4,1584873548,"~/.gitignore"
+-'  3  4  ~/.gitignore
+|4,39,3,4,1584873548,"~/.gitignore"
+-'  1  8  ~/.gitignore
+|4,39,1,8,1584873548,"~/.gitignore"
+-'  3  4  ~/.gitignore
+|4,39,3,4,1584873548,"~/.gitignore"
+-'  3  4  ~/.gitignore
+|4,39,3,4,1584873548,"~/.gitignore"
+-'  3  4  ~/.gitignore
+|4,39,3,4,1584873532,"~/.gitignore"
+-'  3  4  ~/.gitignore
+|4,39,3,4,1584873532,"~/.gitignore"
+-'  3  4  ~/.gitignore
+|4,39,3,4,1584873532,"~/.gitignore"
+-'  3  4  ~/.gitignore
+|4,39,3,4,1584873532,"~/.gitignore"
+-'  3  4  ~/.gitignore
+|4,39,3,4,1584873532,"~/.gitignore"
+-'  3  4  ~/.gitignore
+|4,39,3,4,1584873532,"~/.gitignore"
+-'  3  4  ~/.gitignore
+|4,39,3,4,1584873532,"~/.gitignore"
 -'  3  4  ~/.gitignore
 |4,39,3,4,1584873532,"~/.gitignore"
 -'  1  0  ~/.gitignore
@@ -82,182 +244,34 @@
 |4,39,1,0,1584873500,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1584873500,"~/.gitignore"
--'  2  15  ~/.gitignore
-|4,39,2,15,1584873451,"~/.gitignore"
--'  4  15  ~/.gitignore
-|4,39,4,15,1584873451,"~/.gitignore"
--'  2  2  ~/.gitignore
-|4,39,2,2,1584873451,"~/.gitignore"
--'  4  15  ~/.gitignore
-|4,39,4,15,1584873451,"~/.gitignore"
--'  2  2  ~/.gitignore
-|4,39,2,2,1584873451,"~/.gitignore"
--'  4  15  ~/.gitignore
-|4,39,4,15,1584873451,"~/.gitignore"
--'  2  2  ~/.gitignore
-|4,39,2,2,1584873451,"~/.gitignore"
 -'  1  0  ~/.gitignore
-|4,39,1,0,1584873434,"~/.gitignore"
--'  1  0  /etc/default/keyboard
-|4,39,1,0,1584872899,"/etc/default/keyboard"
--'  1  0  /etc/default/keyboard
-|4,39,1,0,1584872899,"/etc/default/keyboard"
--'  1  0  /etc/default/keyboard
-|4,39,1,0,1584872899,"/etc/default/keyboard"
--'  1  0  /etc/default/keyboard
-|4,39,1,0,1584872899,"/etc/default/keyboard"
--'  1  0  /etc/default/keyboard
-|4,39,1,0,1584872899,"/etc/default/keyboard"
--'  1  0  /etc/default/keyboard
-|4,39,1,0,1584872899,"/etc/default/keyboard"
--'  1  0  /etc/default/keyboard
-|4,39,1,0,1584872899,"/etc/default/keyboard"
--'  1  0  /etc/default/keyboard
-|4,39,1,0,1584872899,"/etc/default/keyboard"
--'  1  0  /etc/default/keyboard
-|4,39,1,0,1584872899,"/etc/default/keyboard"
--'  1  0  /etc/default/keyboard
-|4,39,1,0,1584872899,"/etc/default/keyboard"
--'  1  0  /etc/default/keyboard
-|4,39,1,0,1584872899,"/etc/default/keyboard"
--'  1  0  /etc/default/keyboard
-|4,39,1,0,1584872899,"/etc/default/keyboard"
--'  1  0  /etc/default/keyboard
-|4,39,1,0,1584872899,"/etc/default/keyboard"
--'  1  0  /etc/default/keyboard
-|4,39,1,0,1584872899,"/etc/default/keyboard"
--'  1  0  /etc/default/keyboard
-|4,39,1,0,1584872899,"/etc/default/keyboard"
--'  1  0  /etc/default/keyboard
-|4,39,1,0,1584872899,"/etc/default/keyboard"
--'  1  0  /etc/default/keyboard
-|4,39,1,0,1584872899,"/etc/default/keyboard"
--'  1  0  /etc/default/keyboard
-|4,39,1,0,1584872899,"/etc/default/keyboard"
--'  1  0  /etc/default/keyboard
-|4,39,1,0,1584872899,"/etc/default/keyboard"
--'  1  0  /etc/default/keyboard
-|4,39,1,0,1584872899,"/etc/default/keyboard"
--'  1  0  /etc/default/keyboard
-|4,39,1,0,1584872899,"/etc/default/keyboard"
--'  1  0  /etc/default/keyboard
-|4,39,1,0,1584872899,"/etc/default/keyboard"
--'  1  0  /etc/default/keyboard
-|4,39,1,0,1584872899,"/etc/default/keyboard"
--'  1  0  /etc/default/keyboard
-|4,39,1,0,1584872899,"/etc/default/keyboard"
--'  1  0  /etc/default/keyboard
-|4,39,1,0,1584872899,"/etc/default/keyboard"
--'  1  0  /etc/default/keyboard
-|4,39,1,0,1584872899,"/etc/default/keyboard"
--'  1  0  /etc/default/keyboard
-|4,39,1,0,1584872899,"/etc/default/keyboard"
--'  1  0  /etc/default/keyboard
-|4,39,1,0,1584872899,"/etc/default/keyboard"
--'  1  0  /etc/default/keyboard
-|4,39,1,0,1584872899,"/etc/default/keyboard"
--'  1  0  /etc/default/keyboard
-|4,39,1,0,1584872899,"/etc/default/keyboard"
--'  1  0  /etc/default/keyboard
-|4,39,1,0,1584872899,"/etc/default/keyboard"
--'  1  0  /etc/default/keyboard
-|4,39,1,0,1584872899,"/etc/default/keyboard"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
--'  44  29  ~/.config/i3/config
-|4,39,44,29,1584821352,"~/.config/i3/config"
+|4,39,1,0,1584873500,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1584873500,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1584873500,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1584873500,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1584873500,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1584873500,"~/.gitignore"
 
 # History of marks within files (newest to oldest):
+
+> ~/.xinitrc
+	*	1590484239	0
+	"	52	9
+	^	52	10
+	.	52	9
+	+	54	0
+	+	53	6
+	+	51	9
+	+	52	9
+
+> /etc/default/clight.conf
+	*	1590250367	0
+	"	267	0
 
 > ~/.gitignore
 	*	1584874061	0
@@ -286,11 +300,3 @@
 	.	44	29
 	+	16	17
 	+	44	29
-
-> ~/.xinitrc
-	*	1584820359	0
-	"	51	6
-	^	51	7
-	.	51	6
-	+	52	0
-	+	51	6

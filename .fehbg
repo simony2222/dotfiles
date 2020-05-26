@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-scale '/mnt/Data/Simon/OneDrive/Images/Photos/belle photos/DSCF0687 16-9.jpg' 
