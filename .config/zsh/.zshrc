@@ -4,6 +4,8 @@ alias reload="echo reloading zsh && . $ZDOTDIR/.zshrc"
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.cfg-git/ --work-tree=$HOME'
 alias icat="kitty +kitten icat"
 
+DATAHOME="/mnt/Data/Simon"
+
 # Let there be color in grep!
 # export GREP_OPTIONS=' — color=auto'
 
