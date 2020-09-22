@@ -12,8 +12,11 @@ DATAHOME="/mnt/Data/Simon"
 
 # for the history - see: https://unix.stackexchange.com/a/111777
 HISTFILE="$ZDOTDIR/.zhistory"
-SAVEHIST=1
-HISTSIZE=500
+SAVEHIST=1000
+HISTSIZE=100000
+
+
+
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH

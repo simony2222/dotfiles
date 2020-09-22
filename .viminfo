@@ -10,13 +10,20 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Search Pattern:
+~Msle0~/\<method\>
+
 # Command Line History (newest to oldest):
 :wq
-|2,0,1590484243,,"wq"
+|2,0,1593473656,,"wq"
 :q
-|2,0,1590250383,,"q"
+|2,0,1593359751,,"q"
+:q!
+|2,0,1592835723,,"q!"
 
 # Search String History (newest to oldest):
+? \<method\>
+|2,1,1592846835,,"\\<method\\>"
 
 # Expression History (newest to oldest):
 
@@ -25,239 +32,341 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""1	CHAR	0
+""0	CHAR	0
+	for_window [class="matplotlib"] floating enable
+|3,1,0,0,1,0,1593440768,"for_window [class=\"matplotlib\"] floating enable"
+"1	CHAR	0
+	twm &
+	xclock -geometry 50x50-1+1 &
+	xterm -geometry 80x50+494+51 &
+	xterm -geometry 80x20+494-0 &
+	exec xterm -geometry 80x66+0+0 -name logintwm &
+	xclock -geometry 50x50-1+1 &
+	xterm -geometry 80x50+494+51 &
+	xterm -geometry 80x20+494-0 &
+	exec xterm -geometry 80x66+0+0 -name login
+|3,0,1,0,9,0,1592835676,"twm &","xclock -geometry 50x50-1+1 &","xterm -geometry 80x50+494+51 &","xterm -geometry 80x20+494-0 &","exec xterm -geometry 80x66+0+0 -name logintwm &","xclock -geometry 50x50-1+1 &","xterm -geometry 80x50+494+51 &","xterm -geometry 80x20+494-0 &","exec xterm -geometry 80x66+0+0 -name login"
+"2	CHAR	0
 	twm &
 	xclock -geometry 50x50-1+1 &
 	xterm -geometry 80x50+494+51 &
 	xterm -geometry 80x20+494-0 &
 	exec xterm -geometry 80x66+0+0 -name login
-|3,1,1,0,5,0,1584820350,"twm &","xclock -geometry 50x50-1+1 &","xterm -geometry 80x50+494+51 &","xterm -geometry 80x20+494-0 &","exec xterm -geometry 80x66+0+0 -name login"
+|3,0,2,0,5,0,1584820350,"twm &","xclock -geometry 50x50-1+1 &","xterm -geometry 80x50+494+51 &","xterm -geometry 80x20+494-0 &","exec xterm -geometry 80x66+0+0 -name login"
+"y	LINE	0
+	
+|3,0,34,1,1,0,1592835691,""
 
 # File marks:
-'0  52  9  ~/.xinitrc
-|4,48,52,9,1590484243,"~/.xinitrc"
-'1  267  0  /etc/default/clight.conf
-|4,49,267,0,1590250383,"/etc/default/clight.conf"
-'2  51  9  ~/.xinitrc
-|4,50,51,9,1590225874,"~/.xinitrc"
-'3  51  9  ~/.xinitrc
-|4,51,51,9,1590225874,"~/.xinitrc"
-'4  5  9  ~/.gitignore
-|4,52,5,9,1584874064,"~/.gitignore"
-'5  4  7  ~/.gitignore
-|4,53,4,7,1584873592,"~/.gitignore"
-'6  6  7  ~/.gitignore
-|4,54,6,7,1584873592,"~/.gitignore"
-'7  3  11  ~/.gitignore
-|4,55,3,11,1584873568,"~/.gitignore"
-'8  3  11  ~/.gitignore
-|4,56,3,11,1584873568,"~/.gitignore"
-'9  5  11  ~/.gitignore
-|4,57,5,11,1584873568,"~/.gitignore"
+'0  56  88  ~/.config/i3/config
+|4,48,56,88,1593473656,"~/.config/i3/config"
+'1  131  12  ~/.config/i3/config
+|4,49,131,12,1593450534,"~/.config/i3/config"
+'2  131  12  ~/.config/i3/config
+|4,50,131,12,1593450534,"~/.config/i3/config"
+'3  79  23  ~/.config/i3/config
+|4,51,79,23,1593448040,"~/.config/i3/config"
+'4  79  23  ~/.config/i3/config
+|4,52,79,23,1593448040,"~/.config/i3/config"
+'5  79  23  ~/.config/i3/config
+|4,53,79,23,1593448040,"~/.config/i3/config"
+'6  79  23  ~/.config/i3/config
+|4,54,79,23,1593448040,"~/.config/i3/config"
+'7  239  21  ~/.config/i3/config
+|4,55,239,21,1593440960,"~/.config/i3/config"
+'8  236  21  ~/.config/i3/config
+|4,56,236,21,1593440960,"~/.config/i3/config"
+'9  239  21  ~/.config/i3/config
+|4,57,239,21,1593440960,"~/.config/i3/config"
 
 # Jumplist (newest first):
--'  52  9  ~/.xinitrc
-|4,39,52,9,1590484243,"~/.xinitrc"
--'  51  9  ~/.xinitrc
-|4,39,51,9,1590484043,"~/.xinitrc"
--'  267  0  /etc/default/clight.conf
-|4,39,267,0,1590250383,"/etc/default/clight.conf"
--'  267  0  /etc/default/clight.conf
-|4,39,267,0,1590250383,"/etc/default/clight.conf"
--'  1  0  /etc/default/clight.conf
-|4,39,1,0,1590250128,"/etc/default/clight.conf"
--'  1  0  /etc/default/clight.conf
-|4,39,1,0,1590250128,"/etc/default/clight.conf"
--'  51  9  ~/.xinitrc
-|4,39,51,9,1590225874,"~/.xinitrc"
--'  51  9  ~/.xinitrc
-|4,39,51,9,1590225874,"~/.xinitrc"
--'  53  6  ~/.xinitrc
-|4,39,53,6,1590225825,"~/.xinitrc"
--'  53  6  ~/.xinitrc
-|4,39,53,6,1590225825,"~/.xinitrc"
--'  53  6  ~/.xinitrc
-|4,39,53,6,1590225825,"~/.xinitrc"
--'  5  9  ~/.gitignore
-|4,39,5,9,1584874064,"~/.gitignore"
--'  5  9  ~/.gitignore
-|4,39,5,9,1584874064,"~/.gitignore"
--'  5  9  ~/.gitignore
-|4,39,5,9,1584874064,"~/.gitignore"
--'  5  9  ~/.gitignore
-|4,39,5,9,1584874064,"~/.gitignore"
--'  5  9  ~/.gitignore
-|4,39,5,9,1584874064,"~/.gitignore"
--'  5  9  ~/.gitignore
-|4,39,5,9,1584874064,"~/.gitignore"
--'  5  9  ~/.gitignore
-|4,39,5,9,1584874064,"~/.gitignore"
--'  5  9  ~/.gitignore
-|4,39,5,9,1584874064,"~/.gitignore"
--'  4  7  ~/.gitignore
-|4,39,4,7,1584874021,"~/.gitignore"
--'  4  7  ~/.gitignore
-|4,39,4,7,1584874021,"~/.gitignore"
--'  4  7  ~/.gitignore
-|4,39,4,7,1584874021,"~/.gitignore"
--'  4  7  ~/.gitignore
-|4,39,4,7,1584874021,"~/.gitignore"
--'  4  7  ~/.gitignore
-|4,39,4,7,1584874021,"~/.gitignore"
--'  4  7  ~/.gitignore
-|4,39,4,7,1584874021,"~/.gitignore"
--'  4  7  ~/.gitignore
-|4,39,4,7,1584874021,"~/.gitignore"
--'  4  7  ~/.gitignore
-|4,39,4,7,1584874021,"~/.gitignore"
--'  6  7  ~/.gitignore
-|4,39,6,7,1584873592,"~/.gitignore"
--'  6  7  ~/.gitignore
-|4,39,6,7,1584873592,"~/.gitignore"
--'  6  7  ~/.gitignore
-|4,39,6,7,1584873592,"~/.gitignore"
--'  6  7  ~/.gitignore
-|4,39,6,7,1584873592,"~/.gitignore"
--'  6  7  ~/.gitignore
-|4,39,6,7,1584873592,"~/.gitignore"
--'  6  7  ~/.gitignore
-|4,39,6,7,1584873592,"~/.gitignore"
--'  6  7  ~/.gitignore
-|4,39,6,7,1584873592,"~/.gitignore"
--'  6  7  ~/.gitignore
-|4,39,6,7,1584873592,"~/.gitignore"
--'  3  11  ~/.gitignore
-|4,39,3,11,1584873581,"~/.gitignore"
--'  5  11  ~/.gitignore
-|4,39,5,11,1584873581,"~/.gitignore"
--'  3  11  ~/.gitignore
-|4,39,3,11,1584873581,"~/.gitignore"
--'  5  11  ~/.gitignore
-|4,39,5,11,1584873581,"~/.gitignore"
--'  3  11  ~/.gitignore
-|4,39,3,11,1584873581,"~/.gitignore"
--'  5  11  ~/.gitignore
-|4,39,5,11,1584873581,"~/.gitignore"
--'  3  11  ~/.gitignore
-|4,39,3,11,1584873581,"~/.gitignore"
--'  5  11  ~/.gitignore
-|4,39,5,11,1584873581,"~/.gitignore"
--'  3  11  ~/.gitignore
-|4,39,3,11,1584873581,"~/.gitignore"
--'  5  11  ~/.gitignore
-|4,39,5,11,1584873581,"~/.gitignore"
--'  3  11  ~/.gitignore
-|4,39,3,11,1584873581,"~/.gitignore"
--'  5  11  ~/.gitignore
-|4,39,5,11,1584873581,"~/.gitignore"
--'  3  11  ~/.gitignore
-|4,39,3,11,1584873581,"~/.gitignore"
--'  5  11  ~/.gitignore
-|4,39,5,11,1584873581,"~/.gitignore"
--'  3  11  ~/.gitignore
-|4,39,3,11,1584873581,"~/.gitignore"
--'  5  11  ~/.gitignore
-|4,39,5,11,1584873581,"~/.gitignore"
--'  5  11  ~/.gitignore
-|4,39,5,11,1584873568,"~/.gitignore"
--'  5  11  ~/.gitignore
-|4,39,5,11,1584873568,"~/.gitignore"
--'  5  11  ~/.gitignore
-|4,39,5,11,1584873568,"~/.gitignore"
--'  5  11  ~/.gitignore
-|4,39,5,11,1584873568,"~/.gitignore"
--'  5  11  ~/.gitignore
-|4,39,5,11,1584873568,"~/.gitignore"
--'  5  11  ~/.gitignore
-|4,39,5,11,1584873568,"~/.gitignore"
--'  5  11  ~/.gitignore
-|4,39,5,11,1584873568,"~/.gitignore"
--'  5  11  ~/.gitignore
-|4,39,5,11,1584873568,"~/.gitignore"
--'  1  8  ~/.gitignore
-|4,39,1,8,1584873548,"~/.gitignore"
--'  3  4  ~/.gitignore
-|4,39,3,4,1584873548,"~/.gitignore"
--'  3  4  ~/.gitignore
-|4,39,3,4,1584873548,"~/.gitignore"
--'  1  8  ~/.gitignore
-|4,39,1,8,1584873548,"~/.gitignore"
--'  3  4  ~/.gitignore
-|4,39,3,4,1584873548,"~/.gitignore"
--'  3  4  ~/.gitignore
-|4,39,3,4,1584873548,"~/.gitignore"
--'  1  8  ~/.gitignore
-|4,39,1,8,1584873548,"~/.gitignore"
--'  3  4  ~/.gitignore
-|4,39,3,4,1584873548,"~/.gitignore"
--'  3  4  ~/.gitignore
-|4,39,3,4,1584873548,"~/.gitignore"
--'  1  8  ~/.gitignore
-|4,39,1,8,1584873548,"~/.gitignore"
--'  3  4  ~/.gitignore
-|4,39,3,4,1584873548,"~/.gitignore"
--'  3  4  ~/.gitignore
-|4,39,3,4,1584873548,"~/.gitignore"
--'  1  8  ~/.gitignore
-|4,39,1,8,1584873548,"~/.gitignore"
--'  3  4  ~/.gitignore
-|4,39,3,4,1584873548,"~/.gitignore"
--'  3  4  ~/.gitignore
-|4,39,3,4,1584873548,"~/.gitignore"
--'  1  8  ~/.gitignore
-|4,39,1,8,1584873548,"~/.gitignore"
--'  3  4  ~/.gitignore
-|4,39,3,4,1584873548,"~/.gitignore"
--'  3  4  ~/.gitignore
-|4,39,3,4,1584873548,"~/.gitignore"
--'  1  8  ~/.gitignore
-|4,39,1,8,1584873548,"~/.gitignore"
--'  3  4  ~/.gitignore
-|4,39,3,4,1584873548,"~/.gitignore"
--'  3  4  ~/.gitignore
-|4,39,3,4,1584873548,"~/.gitignore"
--'  1  8  ~/.gitignore
-|4,39,1,8,1584873548,"~/.gitignore"
--'  3  4  ~/.gitignore
-|4,39,3,4,1584873548,"~/.gitignore"
--'  3  4  ~/.gitignore
-|4,39,3,4,1584873548,"~/.gitignore"
--'  3  4  ~/.gitignore
-|4,39,3,4,1584873532,"~/.gitignore"
--'  3  4  ~/.gitignore
-|4,39,3,4,1584873532,"~/.gitignore"
--'  3  4  ~/.gitignore
-|4,39,3,4,1584873532,"~/.gitignore"
--'  3  4  ~/.gitignore
-|4,39,3,4,1584873532,"~/.gitignore"
--'  3  4  ~/.gitignore
-|4,39,3,4,1584873532,"~/.gitignore"
--'  3  4  ~/.gitignore
-|4,39,3,4,1584873532,"~/.gitignore"
--'  3  4  ~/.gitignore
-|4,39,3,4,1584873532,"~/.gitignore"
--'  3  4  ~/.gitignore
-|4,39,3,4,1584873532,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1584873500,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1584873500,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1584873500,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1584873500,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1584873500,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1584873500,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1584873500,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1584873500,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1584873500,"~/.gitignore"
+-'  56  88  ~/.config/i3/config
+|4,39,56,88,1593473656,"~/.config/i3/config"
+-'  131  12  ~/.config/i3/config
+|4,39,131,12,1593450546,"~/.config/i3/config"
+-'  131  12  ~/.config/i3/config
+|4,39,131,12,1593450534,"~/.config/i3/config"
+-'  79  23  ~/.config/i3/config
+|4,39,79,23,1593450439,"~/.config/i3/config"
+-'  79  23  ~/.config/i3/config
+|4,39,79,23,1593450439,"~/.config/i3/config"
+-'  79  23  ~/.config/i3/config
+|4,39,79,23,1593448040,"~/.config/i3/config"
+-'  239  21  ~/.config/i3/config
+|4,39,239,21,1593447959,"~/.config/i3/config"
+-'  239  21  ~/.config/i3/config
+|4,39,239,21,1593447959,"~/.config/i3/config"
+-'  239  21  ~/.config/i3/config
+|4,39,239,21,1593447959,"~/.config/i3/config"
+-'  236  21  ~/.config/i3/config
+|4,39,236,21,1593440960,"~/.config/i3/config"
+-'  236  21  ~/.config/i3/config
+|4,39,236,21,1593440960,"~/.config/i3/config"
+-'  236  21  ~/.config/i3/config
+|4,39,236,21,1593440960,"~/.config/i3/config"
+-'  236  25  ~/.config/i3/config
+|4,39,236,25,1593440791,"~/.config/i3/config"
+-'  233  14  ~/.config/i3/config
+|4,39,233,14,1593440749,"~/.config/i3/config"
+-'  233  14  ~/.config/i3/config
+|4,39,233,14,1593440749,"~/.config/i3/config"
+-'  236  14  ~/.config/i3/config
+|4,39,236,14,1593440749,"~/.config/i3/config"
+-'  233  14  ~/.config/i3/config
+|4,39,233,14,1593440749,"~/.config/i3/config"
+-'  233  14  ~/.config/i3/config
+|4,39,233,14,1593440749,"~/.config/i3/config"
+-'  233  14  ~/.config/i3/config
+|4,39,233,14,1593438946,"~/.config/i3/config"
+-'  44  10  ~/.config/i3/config
+|4,39,44,10,1593438854,"~/.config/i3/config"
+-'  44  10  ~/.config/i3/config
+|4,39,44,10,1593438854,"~/.config/i3/config"
+-'  44  10  ~/.config/i3/config
+|4,39,44,10,1593438854,"~/.config/i3/config"
+-'  44  10  ~/.config/i3/config
+|4,39,44,10,1593438854,"~/.config/i3/config"
+-'  44  10  ~/.config/i3/config
+|4,39,44,10,1593438854,"~/.config/i3/config"
+-'  44  10  ~/.config/i3/config
+|4,39,44,10,1593438854,"~/.config/i3/config"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  589  4  /efi/EFI/refind/refind.conf
+|4,39,589,4,1593359751,"/efi/EFI/refind/refind.conf"
+-'  1  0  /efi/EFI/refind/refind.conf
+|4,39,1,0,1593359709,"/efi/EFI/refind/refind.conf"
+-'  1  0  /efi/EFI/refind/refind.conf
+|4,39,1,0,1593359709,"/efi/EFI/refind/refind.conf"
+-'  1  0  /efi/EFI/refind/refind.conf
+|4,39,1,0,1593359709,"/efi/EFI/refind/refind.conf"
+-'  1  0  /efi/EFI/refind/refind.conf
+|4,39,1,0,1593359709,"/efi/EFI/refind/refind.conf"
+-'  1  0  /efi/EFI/refind/refind.conf
+|4,39,1,0,1593359709,"/efi/EFI/refind/refind.conf"
+-'  1  0  /efi/EFI/refind/refind.conf
+|4,39,1,0,1593359709,"/efi/EFI/refind/refind.conf"
+-'  1  0  /efi/EFI/refind/refind.conf
+|4,39,1,0,1593359709,"/efi/EFI/refind/refind.conf"
+-'  1  0  /efi/EFI/refind/refind.conf
+|4,39,1,0,1593359709,"/efi/EFI/refind/refind.conf"
+-'  1  0  /efi/EFI/refind/refind.conf
+|4,39,1,0,1593359709,"/efi/EFI/refind/refind.conf"
+-'  1  0  /efi/EFI/refind/refind.conf
+|4,39,1,0,1593359709,"/efi/EFI/refind/refind.conf"
+-'  1  0  /efi/EFI/refind/refind.conf
+|4,39,1,0,1593359709,"/efi/EFI/refind/refind.conf"
 
 # History of marks within files (newest to oldest):
+
+> ~/.config/i3/config
+	*	1593473652	0
+	"	56	88
+	^	56	89
+	.	56	88
+	+	16	17
+	+	44	29
+	+	236	24
+	+	76	0
+	+	236	25
+	+	237	28
+	+	237	0
+	+	238	12
+	+	239	25
+	+	238	7
+	+	239	21
+	+	78	12
+	+	79	23
+	+	134	13
+	+	55	88
+	+	56	88
+
+> /efi/EFI/refind/refind.conf
+	*	1593359749	0
+	"	589	4
+
+> ~/.config/kitty/kitty.conf
+	*	1593258505	0
+	"	10	23
+	^	10	24
+	.	10	23
+	+	11	24
+	+	9	23
+	+	10	23
+
+> ~/.config/zsh/.zshrc
+	*	1593127885	0
+	"	19	0
+	^	19	0
+	.	18	0
+	+	16	10
+	+	15	12
+	+	16	15
+	+	18	0
+
+> ~/.config/clight.conf
+	*	1593093891	0
+	"	85	88
+	^	85	89
+	.	85	88
+	+	81	85
+	+	85	88
+
+> /mnt/Data/Simon/OneDrive/école/Télécom/2A/MITRO207/DS/q3.tex
+	*	1593086109	0
+	"	1	0
+
+> ~/.config/cava/config
+	*	1592847066	0
+	"	34	22
+	^	34	23
+	.	34	22
+	+	92	16
+	+	59	0
+	+	60	0
+	+	92	0
+	+	93	0
+	+	137	0
+	+	140	0
+	+	141	0
+	+	140	13
+	+	141	8
+	+	33	0
+	+	34	22
+
+> ~/.config/systemd/user/mpris-proxy.service
+	*	1592835851	0
+	"	9	22
+	^	9	23
+	.	9	22
+	+	1	0
+	+	1	42
+	+	2	0
+	+	9	22
 
 > ~/.xinitrc
 	*	1590484239	0
@@ -292,11 +401,3 @@
 > /etc/default/keyboard
 	*	1584872896	0
 	"	1	0
-
-> ~/.config/i3/config
-	*	1584821350	0
-	"	44	29
-	^	44	30
-	.	44	29
-	+	16	17
-	+	44	29
