@@ -44,11 +44,16 @@ exec --no-startup-id picom -G
 # backlight
 # exec --no-startup-id clight
 
-# wallpaper
-exec --no-startup-id feh --bg-scale ~/.config/wallpaper.jpg
+
+# wallpaper & autorandr
+# https://www.reddit.com/r/i3wm/comments/b76zvi/autorandr_and_feh_not_playing_well_together/
+exec_always --no-startup-id autorandr --change && feh --bg-scale ~/.config/wallpaper.jpg
 
 # numlock
 exec --no-startup-id numlockx
+
+# autorandr
+# exec --no-startup-id autorandr -c
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -65,7 +70,7 @@ bindsym $alt+XF86MonBrightnessDown exec --no-startup-id brightnessctl s 1
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 # because my keyboard layout is wierd and the win key is on the right
-floating_modifier $alt
+floating_modifier $alt 
 bindmouse button1 resize
 
 
@@ -125,7 +130,7 @@ bindsym $mod+f fullscreen toggle
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
 bindsym $mod+w layout tabbed
-bindsym $mod+e layout toggle split
+bindsym $mod+e layout toggle
 
 # toggle tiling / floating
 bindsym $mod+Shift+f floating toggle

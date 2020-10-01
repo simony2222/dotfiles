@@ -4,6 +4,11 @@ alias reload="echo reloading zsh && . $ZDOTDIR/.zshrc"
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.cfg-git/ --work-tree=$HOME'
 alias icat="kitty +kitten icat"
 
+
+
+# opam configuration
+test -r /home/simon/.opam/opam-init/init.zsh && . /home/simon/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
+
 DATAHOME="/mnt/Data/Simon"
 
 # Let there be color in grep!
