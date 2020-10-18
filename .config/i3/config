@@ -41,6 +41,9 @@ exec --no-startup-id start-pulseaudio-x11
 # compton
 exec --no-startup-id picom -G
 
+# mpd media jey ctrl : mpd-mpris
+exec --no-startup-id mpd-mpris
+
 # backlight
 # exec --no-startup-id clight
 
@@ -54,6 +57,9 @@ exec --no-startup-id numlockx
 
 # autorandr
 # exec --no-startup-id autorandr -c
+
+# autostart ncmpcpp
+exec --no-startup-id kitty --class "ncmpcpp-auto" sh -c "ncmpcpp"
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -87,30 +93,30 @@ bindmouse button1 resize
 
 
 # start a terminal
-bindsym $mod+Return exec kitty
-
-bindsym $mod+Shift+Return exec kitty --class "floating-kitty"
-for_window [class="floating-kitty"] floating enable
+bindsym $mod+Shift+asterisk exec kitty
+# start floating terminal
+bindsym $mod+asterisk exec kitty --class "floating-kitty"
 
 # start nemo
 bindsym $mod+n exec nemo
 
 # kill focused window
 bindsym $mod+Shift+q kill
+bindsym $mod+Delete kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec rofi -show drun -theme slate
-bindsym $mod+shift+d exec rofi -show run -theme slate
+bindsym $mod+Return exec rofi -show drun -theme slate
+bindsym $mod+shift+Return exec rofi -show run -theme slate
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 # change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+semicolon focus right
+# bindsym $mod+j focus left
+# bindsym $mod+k focus down
+# bindsym $mod+l focus up
+# jbindsym $mod+semicolon focus right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
@@ -119,10 +125,10 @@ bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+semicolon move right
+# bindsym $mod+Shift+j move left
+# bindsym $mod+Shift+k move down
+# bindsym $mod+Shift+l move up
+# bindsym $mod+Shift+semicolon move right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
@@ -142,10 +148,10 @@ bindsym $mod+f fullscreen toggle
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
 bindsym $mod+w layout tabbed
-bindsym $mod+e layout toggle
+bindsym $mod+t layout toggle
 
 # toggle tiling / floating
-bindsym $mod+Shift+f floating toggle
+bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows
 bindsym $mod+space mode_toggle
@@ -238,7 +244,7 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+Shift+Delete exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -285,7 +291,12 @@ mode $media {
         # back to normal: Enter or Escape or $mod+r
         bindsym Return mode "default"
         bindsym Escape mode "default"
-        bindsym $mod+m mode "default"
+        #bindsym $mod+m mode "default"
+
+        bindsym $mod+m exec --no-startup-id kitty --class "ncmpcpp" sh -c "ncmpcpp"; mode "default"
+        bindsym $mod+Shift+m exec --no-startup-id kitty --class "floating-kitty" sh -c "ncmpcpp"; mode "default"
+
+        bindsym $mod+s exec --no-startup-id spotify; mode "default"
 }
 
 bindsym $mod+m mode $media
@@ -320,3 +331,8 @@ client.urgent           $bg $bg $bg $bg
 for_window [class="matplotlib"] floating enable
 # -- feh
 for_window [class="feh"] floating enable
+# -- floating kittyM
+for_window [class="floating-kitty"] floating enable
+
+# auto start assign
+assign [class="ncmpcpp-auto"] → $wse10
