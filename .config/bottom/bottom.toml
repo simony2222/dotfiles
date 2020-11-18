@@ -8,6 +8,8 @@
 # is also set here.
 [flags]
 
+battery = true
+
 # Whether to display an average cpu entry.
 #avg_cpu = false
 

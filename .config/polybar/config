@@ -29,12 +29,12 @@ alert = #CC342B
 
 [bar/example]
 ;monitor = ${env:MONITOR:HDMI-1}
-width = 100%
+width = 1904
 height = 27
 offset-x = 8
-offset-y = 8
-radius = 0
-fixed-center = true
+offset-y = 3
+radius = 2
+override-redirect = true
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -45,18 +45,15 @@ line-color = #f00
 border-size = 0
 border-color = #00000000
 
-padding-left = 0
-padding-right = 2
-
 module-margin-left = 1
 module-margin-right = 2
 
 font-0 = fixed:pixelsize=10;1
-font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
-font-2 = Siji:pixelsize=10;1
+font-1 = Hack:fontformat=truetype:size=8:antialias=false;0
+font-2 = Hack:pixelsize=10;1
 
-modules-left = i3
-modules-center = xwindow
+modules-left = i3 xwindow
+modules-center = mpd
 ; modules-center = mpd
 modules-right = backlight-acpi pulseaudio xkeyboard memory cpu wlan eth battery temperature date powermenu
 
@@ -146,15 +143,15 @@ label-urgent-padding = 2
 ; label-separator = |
 
 
-; [module/mpd]
-; type = internal/mpd
-; format-online = <label-song>  <icon-prev> <icon-stop> <toggle> <icon-next>
-; 
-; icon-prev = 
-; icon-stop = 
-; icon-play = 
-; icon-pause = 
-; icon-next = 
+[module/mpd]
+type = internal/mpd
+format-online = <label-song>  <icon-prev> <icon-stop> <toggle> <icon-next>
+
+icon-prev = 
+icon-stop = 
+icon-play = 
+icon-pause = 
+icon-next = 
 
 label-song-maxlen = 25
 label-song-ellipsis = true
