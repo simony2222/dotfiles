@@ -55,9 +55,9 @@ bindmouse button1 resize
 
 
 # start a terminal
-bindsym $mod+Shift+asterisk exec kitty
+bindsym $mod+Shift+asterisk exec kitty --class "full-kitty"
 # start floating terminal
-bindsym $mod+asterisk exec kitty --class "floating-kitty"
+bindsym $mod+asterisk exec kitty
 
 # start nemo
 bindsym $mod+n exec nemo
@@ -273,7 +273,7 @@ bindsym XF86AudioPlay exec --no-startup-id playerctl play-pause
 bindsym XF86AudioNext exec --no-startup-id playerctl next
 bindsym XF86AudioPrev exec --no-startup-id playerctl previous
 
-bindsym XF86Tools exec --no-startup-id -no-startup-id kitty --class "floating-kitty" sh -c "ncmpcpp"; mode "default
+bindsym XF86Tools exec --no-startup-id -no-startup-id kitty sh -c "ncmpcpp"; mode "default
 
 bindsym Shift+XF86AudioRaiseVolume exec $vol_up_mpd
 bindsym $alt+Shift+XF86AudioRaiseVolume exec $vol_full_up_mpd
@@ -299,7 +299,7 @@ mode $media {
         # bindsym $mod+m mode "default"
 
         bindsym $mod+m exec --no-startup-id kitty --class "ncmpcpp" sh -c "ncmpcpp"; mode "default"
-        bindsym $mod+Shift+m exec --no-startup-id kitty --class "floating-kitty" sh -c "ncmpcpp"; mode "default"
+        bindsym $mod+Shift+m exec --no-startup-id kitty sh -c "ncmpcpp"; mode "default"
 
         bindsym $mod+s exec --no-startup-id spotify; mode "default"
 
@@ -349,8 +349,9 @@ client.urgent           $bg $bg $bg $bg
 for_window [class="matplotlib"] floating enable
 # -- feh
 for_window [class="feh"] floating enable
-# -- floating kittyM
-for_window [class="floating-kitty"] floating enable
+# -- floating kitty
+for_window [class="kitty"] floating enable
+for_window [class="full-kitty"] floating disable
 
 # auto start assign
 assign [class="ncmpcpp-auto"] → $wse10
