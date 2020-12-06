@@ -368,17 +368,21 @@ exec --no-startup-id mpd-mpris
 
 # wallpaper & autorandr
 # https://www.reddit.com/r/i3wm/comments/b76zvi/autorandr_and_feh_not_playing_well_together/
-exec_always autorandr -f mobile && autorandr -c
-exec_always --no-startup-id feh --bg-fill ~/.config/wallpaper.jpg
+# exec_always autorandr -f mobile && autorandr -c
+# exec_always --no-startup-id feh --bg-fill ~/.config/wallpaper.jpg
 
 # numlock
 exec --no-startup-id numlockx
 
 # autorandr
-# exec --no-startup-id autorandr -c
+exec --no-startup-id autorandr -f mobile && autorandr -c
+bindsym $mod+Control+Shift+a exec --no-startup-id autorandr -c
 
 # autostart ncmpcpp
 exec --no-startup-id kitty --class "ncmpcpp-auto" sh -c "ncmpcpp"
 
 # set mpd-vol to 100%
-exec --no-startup-id $vol_full_up_mpd
+# exec --no-startup-id $vol_full_up_mpd
+
+# start sage quickly
+bindsym $mod+c exec --no-startup-id kitty -o initial_window_width=656 sh -c "sage"; mode "default"

@@ -5,6 +5,7 @@ alias dotfiles='/usr/bin/git --git-dir=$HOME/.cfg-git/ --work-tree=$HOME'
 alias icat="kitty +kitten icat"
 
 alias music="ncmpcpp"
+alias cavampd="cava -p /home/simon/.config/cava/config-mpd"
 
 # https://superuser.com/questions/611538/is-there-a-way-to-display-a-countdown-or-stopwatch-timer-in-a-terminal
 
@@ -38,8 +39,8 @@ DATAHOME="/mnt/Data/Simon"
 
 # for the history - see: https://unix.stackexchange.com/a/111777
 HISTFILE="$ZDOTDIR/.zhistory"
-SAVEHIST=1000
-HISTSIZE=100000
+SAVEHIST=100000
+HISTSIZE=1000000
 
 
 
