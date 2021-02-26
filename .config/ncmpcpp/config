@@ -39,7 +39,7 @@ mpd_music_dir = ~/Music
 progressbar_look = "─╼"
 progressbar_color = "blue"
 progressbar_elapsed_color = white
-progressbar_boldness = yes
+# progressbar_boldness = yes
 
 clock_display_seconds = yes
 display_volume_level = yes
@@ -62,6 +62,7 @@ display_bitrate = yes
 ##
 #
 visualizer_fifo_path = /tmp/mpd.fifo
+
 #
 ##
 ## Note: Below parameter is needed for ncmpcpp to determine which output

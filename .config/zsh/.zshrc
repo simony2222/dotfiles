@@ -1,11 +1,24 @@
 # Created by newuser for 5.8
 
+# suppr, fin, ... keys
+bindkey  "^[[H"   beginning-of-line
+bindkey  "^[[F"   end-of-line
+bindkey  "^[[3~"  delete-char
+
+
+
 alias reload="echo reloading zsh && . $ZDOTDIR/.zshrc"
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.cfg-git/ --work-tree=$HOME'
 alias icat="kitty +kitten icat"
 
 alias music="ncmpcpp"
 alias cavampd="cava -p /home/simon/.config/cava/config-mpd"
+
+alias ssh="kitty +kitten ssh" #https://sw.kovidgoyal.net/kitty/faq.html#i-get-errors-about-the-terminal-being-unknown-or-opening-the-terminal-failing-when-sshing-into-a-different-computer
+
+
+alias histrg="history 0 | rg"
+alias reddit="tuir --enable-media"
 
 # https://superuser.com/questions/611538/is-there-a-way-to-display-a-countdown-or-stopwatch-timer-in-a-terminal
 

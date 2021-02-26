@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-fill '/home/simon/.config/wallpaper.jpg' 
+feh --no-fehbg --bg-fill --image-bg 'black' '/home/simon/.config/wallpaper.jpg' 

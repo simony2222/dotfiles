@@ -41,6 +41,9 @@ exec --no-startup-id start-pulseaudio-x11
 # compton
 exec --no-startup-id picom -G
 
+# thunar
+exec --no-startup-id thunar --daemon
+
 
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl s +10%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl s 10%-
@@ -60,7 +63,10 @@ bindsym $mod+Shift+asterisk exec kitty --class "full-kitty"
 bindsym $mod+asterisk exec kitty
 
 # start nemo
-bindsym $mod+n exec nemo
+# bindsym $mod+n exec nemo
+
+# start thunar
+bindsym $mod+n exec thunar
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -380,6 +386,9 @@ bindsym $mod+Control+Shift+a exec --no-startup-id autorandr -c
 
 # autostart ncmpcpp
 exec --no-startup-id kitty --class "ncmpcpp-auto" sh -c "ncmpcpp"
+
+# scrennshot
+bindsym Print exec flameshot gui
 
 # set mpd-vol to 100%
 # exec --no-startup-id $vol_full_up_mpd
