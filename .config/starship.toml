@@ -1,0 +1,80 @@
+# Which is equivalent to
+format = """
+$time\
+$username\
+$hostname\
+$shlvl\
+$kubernetes\
+$directory\
+$git_branch\
+$git_commit\
+$git_state\
+$git_status\
+$hg_branch\
+$docker_context\
+$package\
+$cmake\
+$dart\
+$dotnet\
+$elixir\
+$elm\
+$erlang\
+$golang\
+$helm\
+$java\
+$julia\
+$kotlin\
+$nim\
+$nodejs\
+$ocaml\
+$perl\
+$php\
+$purescript\
+$python\
+$ruby\
+$rust\
+$swift\
+$terraform\
+$vagrant\
+$zig\
+$nix_shell\
+$conda\
+$memory_usage\
+$aws\
+$gcloud\
+$openstack\
+$env_var\
+$crystal\
+$custom\
+$cmd_duration\
+$line_break\
+$lua\
+$jobs\
+$battery\
+$status\
+$character"""
+
+[character]
+success_symbol = "[@](bold green)"
+error_symbol = "[@](bold red)"
+
+[python]
+symbol = "🐍 "
+pyenv_version_name = true
+
+[directory]
+truncation_symbol = "…/"
+truncate_to_repo = false
+
+[username]
+disabled = false
+show_always = false
+
+[time]
+disabled = false
+format = '[$time]($style) in '
+
+[status]
+disabled = false
+
+

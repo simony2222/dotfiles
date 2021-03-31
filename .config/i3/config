@@ -341,6 +341,7 @@ bindsym $mod+m mode $media
 # finds out, if available)
 bar {
         status_command i3status
+        tray_output primary
 }
 
 for_window [class=".*"] border pixel 1
@@ -404,6 +405,9 @@ bindsym Print exec flameshot gui
 
 # notification
 exec --no-startup-id dunst -conf ~/.config/dunst/dunstrc
+
+# hide the mouse when useless
+exec --no-startup-id unclutter
 
 # set mpd-vol to 100%
 # exec --no-startup-id $vol_full_up_mpd
